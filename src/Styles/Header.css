@@ -1,8 +1,21 @@
 .header {
   display: flex;
+  justify-content: space-around;
+  border-bottom: 0.1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 .header__left {
   display: flex;
+  align-items: center;
 }
 .header__left > img {
   object-fit: contain;
@@ -22,4 +35,8 @@
   outline: none;
   border: none;
   background: none;
+}
+.header__right {
+  display: flex;
+  align-items: center;
 }
