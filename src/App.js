@@ -8,14 +8,10 @@ function App() {
     <div className="App">
       <Header />
 
-      {/* App Body */}
       <div className="app__body">
         <Sidebar />
         <Feed />
       </div>
-      {/*  - Sidebar */}
-      {/*  - Feed */}
-      {/*  - Widgets */}
     </div>
   );
 }
